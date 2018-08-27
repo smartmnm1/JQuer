@@ -1,0 +1,23 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").mouseenter(function(){
+        $("button").css("background-color", "yellow");
+    });
+    $("button").mouseleave(function(){
+        $("button").css("background-color", "red");
+    });
+    $("button").click(function(){
+        $("button").css("background-color", "blue");
+    });
+    });
+</script>
+</head>
+<body>
+
+<button >Move the mouse pointer over this paragraph.</button>
+
+</body>
+</html>
